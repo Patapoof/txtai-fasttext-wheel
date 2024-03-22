@@ -53,7 +53,7 @@ extras["pipeline-image"] = ["imagehash>=4.2.1", "pillow>=7.1.2", "timm>=0.4.12"]
 
 extras["pipeline-llm"] = ["litellm>=1.31.2", "llama-cpp-python>=0.2.20"]
 
-extras["pipeline-text"] = ["fasttext>=0.9.2", "sentencepiece>=0.1.91"]
+extras["pipeline-text"] = ["fasttext-wheel>=0.9.2", "sentencepiece>=0.1.91"]
 
 extras["pipeline-train"] = [
     "accelerate>=0.19.0",
@@ -76,7 +76,7 @@ extras["pipeline"] = (
 
 extras["similarity"] = [
     "annoy>=1.16.3",
-    "fasttext>=0.9.2",
+    "fasttext-wheel>=0.9.2",
     "hnswlib>=0.5.0",
     "pymagnitude-lite>=0.1.43",
     "scikit-learn>=0.23.1",
